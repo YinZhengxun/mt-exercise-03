@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "c:\users\lenovo\mt-exercise\joeynmt\joeynmt\__main__.py", line 61, in <module>
+    main()
+  File "c:\users\lenovo\mt-exercise\joeynmt\joeynmt\__main__.py", line 41, in main
+    train(cfg_file=args.config_path, skip_test=args.skip_test)
+  File "c:\users\lenovo\mt-exercise\joeynmt\joeynmt\training.py", line 794, in train
+    model_dir = make_model_dir(
+  File "c:\users\lenovo\mt-exercise\joeynmt\joeynmt\helpers.py", line 48, in make_model_dir
+    raise FileExistsError(f"Model directory {model_dir} exists "
+FileExistsError: Model directory C:\Users\lenovo\mt-exercise\mt-exercise-03\models\deen_transformer_pre exists and overwriting is disabled.
